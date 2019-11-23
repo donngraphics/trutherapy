@@ -9,6 +9,10 @@ body {
     
   }
   
+  a:hover {
+    /* background-color: yellow; */
+    text-shadow: 2px 2px 4px #ffffff;
+  }
 
   h1 {
 
@@ -90,8 +94,23 @@ body {
 .aboutus p{
 
 margin-left: 50px;
+margin-right: 50px;
+line-height: 1.5;
 font-size: 20px; 
+text-align: justify;
 
+
+}
+.aboutus img{
+float: left;
+margin-left: 80px;
+padding-right: 20px;
+  
+
+}
+.aboutus h2 {
+    text-align: center;
+    clear: both;
 }
 
   .footer {
