@@ -12,7 +12,7 @@ body {
 
   h1 {
 
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
     margin-top: 5px;
     font-family: 'Liu Jian Mao Cao', cursive;
@@ -52,13 +52,48 @@ body {
   
   position: relative;
   /*   background: #aadd00; */
-    margin-top: 200px;
+    margin-top: 250px;
     height: 400px;
     overflow-y: auto;
     width: 100%;
+    
+  }
+
+  .main h3 {
+    text-align: center;
+    font-style: italic;
+    display: inline;
+    
+    }
+    
+    .main p {
+    
+        display: inline;
+        text-align: center;
+        
+    }
+    
+    .bibleverse {
+        text-align: center;
+        margin-top:-15px;
+    }
+
+  .aboutus {
+    position: relative;
+    /*   background: #aadd00; */
+      margin-top: 250px;
+      height: 400px;
+      overflow-y: auto;
+      width: 100%;
   }
   
-  
+.aboutus p{
+
+margin-left: 50px;
+font-size: 20px; 
+
+}
+
   .footer {
     text-align: center;
     position: fixed;
@@ -94,8 +129,7 @@ body {
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
- h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
